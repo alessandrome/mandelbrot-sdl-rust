@@ -1,0 +1,1 @@
+This project's SDL library is suited for Windows systems
