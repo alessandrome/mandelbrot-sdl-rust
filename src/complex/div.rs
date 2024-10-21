@@ -17,8 +17,8 @@ impl Div<f32> for Complex {
 
     fn div(self, rhs: f32) -> Self::Output {
         Self {
-            real: self.real * rhs,
-            imaginary: self.imaginary * rhs,
+            real: self.real / rhs,
+            imaginary: self.imaginary / rhs,
         }
     }
 }

@@ -4,6 +4,7 @@ impl Complex {
     pub fn norm_sqrt(&self) -> f32 {
         self.real * self.real + self.imaginary * self.imaginary
     }
+
     pub fn norm(&self) -> f32 {
         self.norm_sqrt().sqrt()
     }
